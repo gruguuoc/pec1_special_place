@@ -1,6 +1,6 @@
 {
   "name": "pec1_special_place",
-  "source": "src/portada.html",
+  "source": "./src/portada.html",
   "version": "1.0.0",
   "browserslist": "> 0.5%, last 5 versions, not dead",
   "scripts": {
@@ -19,5 +19,10 @@
     "parcel": "^2.12.0",
     "posthtml-include": "^2.0.1",
     "rimraf": "^6.0.1"
+  },
+  "targets": {
+    "default": {
+      "publicUrl": "./"
+    }
   }
 }
