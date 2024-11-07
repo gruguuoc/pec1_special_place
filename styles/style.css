@@ -1,3 +1,4 @@
+/*Setting initial styles*/
 *,
 *::before,
 *::after {
@@ -6,12 +7,18 @@
   box-sizing: border-box;
 }
 
+html{
+    font-size: 10px;
+}
+
 body {
     font-family: Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    color: #333;
+    color: #fff;
     background-color: #fff;
+    min-height: 100vh;
+    margin: 0 15%;
 }
 
 ul, ol {
@@ -19,7 +26,9 @@ ul, ol {
     padding: 0;
 }
 
-.main-menu{
-    display: flex;
-    justify-content: space-between;
-}
+a {
+    text-decoration: none;
+    color: inherit;
+    background: none;
+    border: none;
+  }
