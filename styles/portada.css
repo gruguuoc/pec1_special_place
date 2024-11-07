@@ -40,16 +40,6 @@ nav{
     text-align: justify;
 }
 
-body {
-    background: linear-gradient(
-        rgba(0, 0, 0, 0.7),
-        rgba(0, 0, 0, 0.7)
-        ), url('../img/shibuya-front-page-bg.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
-}
-
 .container{
     display: flex;
     flex-direction: column;

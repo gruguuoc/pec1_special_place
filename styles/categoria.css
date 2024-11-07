@@ -1,0 +1,58 @@
+h1{
+    font-size: 4rem;
+    padding: 5% 0;   
+}
+
+.carousel-element h3{
+margin-bottom: 2rem;
+padding-top: 2rem;
+}
+
+.carousel{
+    background-color: #2b2a33;
+    border-radius: 4rem;
+    max-height: 30vh;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.6)
+}
+
+.viewpoint-grid{
+    background-color: #2b2a33;
+    border-radius: 4rem;  
+}
+
+.carousel-content{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding: 0 4rem 0 4rem;
+}
+
+.carousel-content p{
+    text-align: justify;
+}
+
+.carousel-description{
+    margin: 0 2rem 2rem 2rem;
+}
+
+figure img{ 
+    max-height: 30vh;
+    max-width: 30vh;
+}
+
+.viewpoint{
+    background-color: #42414d;
+    margin: 2rem;
+    width: 30%;
+}
+
+.carousel-element img{
+    margin: 2rem 0 2rem 0;
+    border-radius: 1rem;
+    max-height: 30vh;
+    max-width: 30vh;
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.6)
+}
