@@ -10,16 +10,11 @@ padding-top: 2rem;
 
 .carousel{
     background-color: #2b2a33;
-    border-radius: 4rem;
+    border-radius: 2rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
     width: 100%;
     box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.6)
-}
-
-.viewpoint-grid{
-    background-color: #2b2a33;
-    border-radius: 4rem;  
 }
 
 .carousel-content{
@@ -37,21 +32,43 @@ padding-top: 2rem;
     margin: 0 2rem 2rem 2rem;
 }
 
-figure img{ 
-    max-height: 30vh;
-    max-width: 30vh;
-}
-
-.viewpoint{
-    background-color: #42414d;
-    margin: 2rem;
-    width: 30%;
-}
-
 .carousel-element img{
     margin: 2rem 0 2rem 0;
     border-radius: 1rem;
     max-height: 30vh;
     max-width: 30vh;
     box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.6)
+}
+
+figure img{ 
+    width: 100%;
+    height: 60%;
+}
+
+.viewpoint{
+    background-color: #42414d;
+    margin: 2rem;
+}
+
+.viewpoint,
+.viewpoint img{
+    border-radius: 1rem;
+}
+
+.viewpoint-grid{
+    background-color: #2b2a33;
+    border-radius: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 2rem;
+    margin-bottom: 2rem;  
+}
+
+figcaption h4{
+    text-align: center;
+}
+
+figcaption{
+    text-align: justify;
+    padding: 0rem 2rem 0rem 2rem;
 }
