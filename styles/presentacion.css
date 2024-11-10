@@ -28,11 +28,8 @@ h2{
 }
 
 figcaption{
-    padding: 0 2rem 0 2rem;
-}
-
-figure{
-    display: flex;
+    padding: 0 2rem 2rem 2rem;
+    overflow: hidden;
 }
 
 figure img{ 
@@ -41,8 +38,6 @@ figure img{
 }
 
 .interest-grid{
-    background-color: #2b2a33;
-    border-radius: 2rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 2rem;
@@ -54,7 +49,22 @@ figure img{
     grid-column: span 2;
 }
 
-embed,
-img{
+.place{
+    background-color: #42414d;
     border-radius: 2rem;
+}
+
+img{
+    float: left;
+    max-width: 50%;
+    max-height: 100%;
+    border-radius: 2rem;
+}
+
+embed{
+    border-radius: 2rem;
+    float: right;
+    width: 50%;
+    height: 100%;
+    max-height: 100%;  
 }

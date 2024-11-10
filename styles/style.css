@@ -38,3 +38,25 @@ a {
     background: none;
     border: none;
 }
+
+.nav-menu ul{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.nav-menu-border{
+    border-bottom: 1px solid #fff;
+}
+
+h4{
+    margin: 1rem 0 1rem 0;
+}
+
+h2{
+    margin-bottom: 2rem;
+}
+
+.current-page nav ul li a{
+    border-bottom: 1px solid #fff;
+}
