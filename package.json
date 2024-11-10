@@ -1,6 +1,6 @@
 {
   "name": "pec1_special_place",
-  "source": "./src/portada.html",
+  "source": "./src/index.html",
   "version": "1.0.0",
   "browserslist": "> 0.5%, last 5 versions, not dead",
   "scripts": {
