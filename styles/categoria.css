@@ -52,7 +52,7 @@ figure img{
 
 .viewpoint,
 .viewpoint img{
-    border-radius: 1rem;
+    border-radius: 1rem 1rem 0 0;
 }
 
 .viewpoint-grid{
