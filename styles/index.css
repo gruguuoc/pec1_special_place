@@ -19,12 +19,6 @@ h1{
     padding: 5% 0;   
 }
 
-nav{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-
 .main-menu{
     display: flex;
     justify-content: space-between;
@@ -45,4 +39,29 @@ nav{
     flex-direction: column;
     justify-content: center;
     min-height: 100vh;
+}
+
+@media (max-width: 600px) {
+    li{
+       margin: 2rem 0 2rem 0;
+    }
+
+    body{
+        min-height: 0;
+    }
+    
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-height: 0vh;
+    }
+    
+    .main-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    
 }

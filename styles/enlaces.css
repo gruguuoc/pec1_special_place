@@ -1,0 +1,27 @@
+h1{
+    font-size: 4rem;
+    padding: 5% 0;   
+}
+
+dl{
+    border-radius: 2rem;
+    background-color: #2b2a33;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+dl dd{
+    margin: 0 0 2rem 0;
+}
+
+dt{
+font-weight: 700;
+}
+
+dd a{
+    color: #00bcd4;
+}
+
+p{
+    margin-bottom: 2rem;
+}
