@@ -18,7 +18,7 @@ html{
 
 body {
 
-    font-size: 16px;
+    font-size: 0.85vw;
     line-height: 1.5;
     color: #fff;
     min-height: 100vh;
@@ -27,7 +27,6 @@ body {
         rgba(0, 0, 0, 0.7),
         rgba(0, 0, 0, 0.7)
         ), url('../img/shibuya-front-page-bg.jpg');
-    background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
 }
@@ -77,6 +76,7 @@ header nav ul li:hover{
     text-decoration: underline;
 }
 
+/*Smartphones*/
 @media (max-width: 600px) {
     body{
         font-size: 2.5vw;
@@ -84,5 +84,14 @@ header nav ul li:hover{
         min-height: fit-content;
     }
     
+}
+
+/*Tablets*/
+@media (min-width: 601px) and (max-width: 1024px) {
+    body{
+        font-size: 1.5vw;
+        margin: 0 10%; 
+        min-height: fit-content;
+    }
 }
 
