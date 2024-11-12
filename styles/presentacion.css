@@ -20,7 +20,7 @@ h2{
 
 .location-container p{
     margin-top: 2rem;
-    padding: 0 2rem 0 2rem;
+    padding: 0 2rem 2rem 2rem;
 }
 
 figcaption{
@@ -66,6 +66,12 @@ embed{
 }
 
 @media (max-width: 600px) {
+
+    h1{
+        font-size: 2rem;
+        padding: 5% 0;   
+    }
+
     .location-container{
         display: flex;
         flex-direction: column;
@@ -73,10 +79,20 @@ embed{
         border-radius: 2rem;
     }
 
+    .location-container p{
+        margin-top: 2rem;
+        padding: 0 1rem 1rem 1rem;
+    }
+
     .location-container img{
         max-width: 100%;
         max-height: 100%;
 
+    }
+
+    figcaption{
+        padding: 0 1rem 1rem 1rem;
+        overflow: hidden;
     }
 
     .interest-grid figure:nth-child(3){

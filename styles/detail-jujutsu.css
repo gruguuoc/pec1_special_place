@@ -48,3 +48,31 @@ main > p a:hover{
 .nav-menu-container ul{
     padding: 2rem;
 }
+
+@media (max-width: 600px) {
+    .container{
+        background-color: #2b2a33;
+        display: grid;
+        grid-template-columns: 1fr;
+        border-radius: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .nav-menu-container ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-menu ul li{
+        padding: 0.5rem 0;
+    }
+
+    img{
+        border-radius: 0 0 2rem 2rem;
+    }
+    
+    
+}
