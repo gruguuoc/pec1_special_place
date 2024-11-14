@@ -4,7 +4,7 @@ import 'slick-carousel';
 import $ from 'jquery';
 
 $(function() {
-    // Initialize Slick Carousel
+    // Initialize Slick Carousel and sets parameters
     $('.carousel').slick({
       infinite: true,          
       slidesToShow: 1,         
