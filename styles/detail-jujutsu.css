@@ -17,6 +17,12 @@ img{
     border-radius: 0 2rem 2rem 0;
 }
 
+.art-img{
+    width: 100%;
+    height: auto;
+    border-radius: 0 2rem 2rem 0; 
+}
+
 main h1 + p{
     padding-bottom: 5%;
 }
