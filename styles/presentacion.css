@@ -14,7 +14,7 @@ h2{
 
 .location-container{
     display: flex;
-    background-color: #2b2a33;
+    background-color: rgb(43, 42, 51, 0.8);
     border-radius: 2rem;
 }
 
@@ -46,7 +46,7 @@ figure img{
 }
 
 .place{
-    background-color: #42414d;
+    background-color: rgb(43, 42, 51, 0.8);
     border-radius: 2rem;
 }
 

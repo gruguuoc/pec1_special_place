@@ -4,7 +4,8 @@
 function setCurrentNavMenuElementBorder(){
     const pageTitle = document.title;
     const currentNavigationElement = document.getElementById('nav-menu');
-    Array.from(currentNavigationElement.children[0].children).filter(x => x.outerText === pageTitle)[0].classList.add('nav-menu-border');
+    const firstChildren = pageTitle === 'CATEGORY' ? currentNavigationElement.children[0] : currentNavigationElement.children[2];
+    Array.from(firstChildren.children).filter(x => x.outerText === pageTitle)[0].children[0].classList.add('nav-menu-border');
 }
 
 setCurrentNavMenuElementBorder();
