@@ -28,7 +28,7 @@ body {
         ), url('../img/shibuya-front-page-bg.jpg');
     background-size: cover;
     background-position: 50% 50%;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(8px);
 }
 
 #main-content-container{

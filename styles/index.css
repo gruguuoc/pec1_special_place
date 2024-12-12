@@ -35,8 +35,22 @@ main{
 }
 
 .presentation{
-    margin: 0% 15% 5% 15%;
+    margin-left: 4%;
     text-align: justify;
+}
+
+#main-content-container-index{
+    margin: 0% 15% 0% 15%;
+}
+
+#main-wrapper{
+    display: flex;
+    align-items: center;
+    margin-bottom: 4%;
+}
+
+.pagoda-clip{
+    clip-path: polygon(29% 90%, 50% 77%, 72% 90%, 72% 56%, 84% 56%, 88% 52%, 89% 30%, 84% 26%, 72% 26%, 71% 8%, 59% 8%, 55% 12%, 47% 12%, 42% 8%, 29% 8%, 29% 26%, 17% 26%, 12% 30%, 13% 52%, 17% 56%, 29% 56%);
 }
 
 /*Smartphones*/
