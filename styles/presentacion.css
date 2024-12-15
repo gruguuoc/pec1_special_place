@@ -65,6 +65,49 @@ embed{
     max-height: 100%;  
 }
 
+@keyframes fullRotationAndFadeOut { 
+    0% { 
+        transform: rotate(0deg); 
+    } 
+
+    100% { 
+        transform: rotate(360deg);
+        opacity: 0; 
+    } 
+}
+
+@keyframes fullRotationAndFadeIn { 
+    0% { 
+        transform: rotate(0deg);
+        opacity: 0; 
+    } 
+
+    100% { 
+        transform: rotate(-360deg);
+        opacity: 1; 
+    } 
+}
+
+
+.jpn-fan{
+    animation: fullRotationAndFadeOut 2s 1 2s forwards;
+    position: absolute;
+}
+
+.jpn-flag{
+    opacity: 0;
+    animation: fullRotationAndFadeIn 2s 1 2s forwards;
+    position: absolute;
+}
+
+#svg-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    position: relative;
+    height: 20vh;
+}
+
 /*Smartphones*/
 @media (max-width: 600px) {
     h1{
