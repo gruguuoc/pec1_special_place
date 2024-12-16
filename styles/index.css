@@ -10,6 +10,9 @@ li > a{
     border-radius: 2rem;
     padding: 1.5rem 3rem;
     font-size: 2rem;
+    transition: background-color 0.5s ease-in,
+                color 0.5s ease-in,
+                border 0.5s ease-in;
 }
 
 h1{
@@ -53,6 +56,10 @@ main{
     clip-path: polygon(29% 90%, 50% 77%, 72% 90%, 72% 56%, 84% 56%, 88% 52%, 89% 30%, 84% 26%, 72% 26%, 71% 8%, 59% 8%, 55% 12%, 47% 12%, 42% 8%, 29% 8%, 29% 26%, 17% 26%, 12% 30%, 13% 52%, 17% 56%, 29% 56%);
 }
 
+img{
+    width: 50%;
+}
+
 /*Smartphones*/
 @media (max-width: 600px) {
     h1{
@@ -94,6 +101,10 @@ main{
         align-items: center;
         padding: 0;
     }
+
+    #main-wrapper{
+        flex-direction: column;
+    }
 }
 
 /*Tablets*/
@@ -101,5 +112,9 @@ main{
     li > a{
         padding: 1rem 2rem;
         font-size: 1.5rem;
-    }  
+    } 
+    
+    #main-wrapper{
+        flex-direction: column;
+    }
 }

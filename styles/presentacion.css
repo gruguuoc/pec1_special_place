@@ -90,13 +90,13 @@ embed{
 
 
 .jpn-fan{
-    animation: fullRotationAndFadeOut 2s 1 2s forwards;
+    animation: fullRotationAndFadeOut 2s 1 1s forwards;
     position: absolute;
 }
 
 .jpn-flag{
     opacity: 0;
-    animation: fullRotationAndFadeIn 2s 1 2s forwards;
+    animation: fullRotationAndFadeIn 2s 1 1s forwards;
     position: absolute;
 }
 
