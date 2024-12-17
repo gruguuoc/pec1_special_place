@@ -120,13 +120,13 @@ header nav ul li:hover{
 }
 
 /*SVG logo properties*/
-#svg-whiteBox{
+.svg-whiteBox{
     fill:#fff;
     stroke:#000;
     stroke-width: 4;
 }
 
-#svg-blackBox{
+.svg-blackBox{
     fill:#000;
 }
 
