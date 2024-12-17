@@ -5,15 +5,10 @@
   "browserslist": "> 0.5%, last 2 versions, ie <= 11",
   "scripts": {
     "start": "npm-run-all clean parcel:dev",
-    "build": "npm-run-all clean parcel:build optimicecategoria optimicedetail optimicedetail optimiceenlaces optimiceindex optimicepresentacion",
+    "build": "npm-run-all clean parcel:build",
     "parcel:dev": "parcel",
     "parcel:build": "parcel build",
-    "clean": "rimraf dist .parcel-cache",
-    "optimicecategoria": "html-minifier-terser dist/categoria.html --output dist/categoria.html --remove-attribute-quotes",
-    "optimicedetail": "html-minifier-terser dist/detail-jujutsu.html --output dist/detail-jujutsu.html --remove-attribute-quotes",
-    "optimiceenlaces": "html-minifier-terser dist/enlaces.html --output dist/enlaces.html --remove-attribute-quotes",
-    "optimiceindex": "html-minifier-terser dist/index.html --output dist/index.html --remove-attribute-quotes",
-    "optimicepresentacion": "html-minifier-terser dist/presentacion.html --output dist/presentacion.html  --remove-attribute-quotes"
+    "clean": "rimraf dist .parcel-cache"
   },
   "keywords": [],
   "author": "",
