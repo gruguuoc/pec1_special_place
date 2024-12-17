@@ -60,12 +60,8 @@ a {
 }
 
 footer .nav-menu ul{
-    margin-top: 5rem;
+    align-items: center;
     gap: 100%;
-}
-
-footer .nav-menu ul li{
-    padding-top: 2%;
 }
 
 .nav-menu-border{
@@ -93,13 +89,18 @@ footer{
 #header-container{
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 10%;
     padding: 1% 0;
+    width: 100%;
 }
 
 #header-title{
-    padding: 2% 0 0 0;
+    font-size: 3em;
+    padding: 0;
 }
+
+
 
 main nav ul li:hover,
 header nav ul li:hover{
@@ -129,13 +130,21 @@ header nav ul li:hover{
     fill:#000;
 }
 
+.svg-text:first-of-type{
+    font-size: 3.2rem;
+}
+
 .svg-text{
+    font-size: 1.5rem;
     font-family:"Georgia", serif;
+}
+
+#svg-container-hf{
+    width: 10%;
 }
 
 footer a{
     font-size: inherit;
-    background-color: none;
     padding: 1rem;
     transition: background-color 0.5s ease-in,
                 color 0.5s ease-in,
@@ -156,7 +165,41 @@ footer a:hover{
         font-size: 2.5vw;
         min-height: fit-content;
     }
-    
+
+    #header-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 1em 0;
+    }
+
+    #header-title{
+        font-size: 2em;
+        padding: 0;
+    }
+
+    #svg-container-hf{
+        width: 20%;
+    }
+
+    #nav-menu{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15%;
+    }
+
+    .nav-menu ul{
+        display: block;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    footer .nav-menu ul li{
+        margin: 2em 0;
+    }   
 }
 
 /*Tablets*/
@@ -164,6 +207,20 @@ footer a:hover{
     body{
         font-size: 1.5vw;
         min-height: fit-content;
+    }
+
+    #header-title{
+        font-size: 2.5em;
+        padding: 0;
+    }
+
+    #svg-container-hf{
+        width: 15%;
+    }
+
+    footer .nav-menu ul{
+        align-items: center;
+        gap: 50%;
     }
 }
 

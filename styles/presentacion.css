@@ -101,11 +101,23 @@ embed{
 }
 
 #svg-container{
+    margin-top: 2em;
+    position: relative;
+    width: 20%;
+}
+
+#svg-wraper{
     display: flex;
     justify-content: center;
-    margin-top: 2%;
-    position: relative;
-    height: 20vh;
+}
+
+svg text{
+    font-size: 0.5em;
+}
+
+#blank-space{
+    width: 100%;
+    height: 10vw;
 }
 
 /*Smartphones*/
@@ -161,6 +173,15 @@ embed{
         width: 100%;
         border-radius: 1rem 1rem 0 0;
     }
+
+    #svg-container{
+        margin-top: 3em;
+        width: 40%;
+    }
+    
+    #blank-space{
+        height: 23vw;
+    }
 }
 
 /*Tablets*/
@@ -189,5 +210,14 @@ embed{
 
     .location-container img{
         margin: auto;
+    }
+
+    #svg-container{
+        margin-top: 3em;
+        width: 35%;
+    }
+    
+    #blank-space{
+        height: 20vw;
     }
 }
