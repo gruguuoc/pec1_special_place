@@ -31,8 +31,10 @@ main h1 + p{
     padding-bottom: 5%;
 }
 
+main nav ul li:hover,
 main > p a:hover{
     color: #00bcd4;
+    text-decoration: underline;
 }
 
 .content-wraper{

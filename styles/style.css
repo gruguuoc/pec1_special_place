@@ -101,10 +101,9 @@ footer{
 }
 
 
-
-main nav ul li:hover,
 header nav ul li:hover{
     color: #00bcd4;
+    text-decoration: underline;
 }
 
 .current-page nav ul li a{
