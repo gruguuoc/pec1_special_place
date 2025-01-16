@@ -23,4 +23,8 @@ function loadYTVideo(){
     document.getElementById('iframe-wrapper').innerHTML = htmlContent;
 }
 
+//Main execution
+if(document.title === 'PRESENTATION')
+    document.getElementById('fake-youtube-img').addEventListener('click', loadYTVideo);
+
 setCurrentNavMenuElementBorder();
