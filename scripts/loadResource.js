@@ -1,5 +1,4 @@
 function loadYTVideo(){
-    console.log("hola");
     let htmlContent = `<iframe
                         width="100%"
                         height="100%"
@@ -7,7 +6,7 @@ function loadYTVideo(){
                         title="YouTube video player"
                         frameborder="0"
                         allow="accelerometer;autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin"
+                        referrerpolicy="no-referrer"
                         loading="lazy"
                         allowfullscreen></iframe>`
 

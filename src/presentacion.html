@@ -54,7 +54,15 @@
                 <h2>Places of interest</h2>
                 <div class="interest-grid">
                     <figure class="place">
-                        <img src="../img/Hachiko.jpg?as=webp" width="100%" height="100%" type="image/webp" alt="Statue of the dog Hachiko in Shibuya Train Station." loading="lazy">
+                        <img
+                            srcset="../img/Hachiko-200.jpg?as=webp 200w, ../img/Hachiko.jpg?as=webp 400w"
+                            sizes="(max-width: 1024px) 200px,
+                                    400px"
+                            src="../img/Hachiko.jpg?as=webp"
+                            type="image/webp"
+                            alt="Statue of the dog Hachiko in Shibuya Train Station."
+                            width="100%" height="100%"
+                            loading="lazy"/>
                         <figcaption><h4>Statue of Hachiko</h4>The Hachiko statue in Shibuya is a monument dedicated to an Akita dog known for his remarkable loyalty. Hachiko waited every day for his owner, Professor Hidesaburo Ueno, at Shibuya Station, even after Ueno passed away in 1925. The statue was unveiled in 1934 and has since become a symbol of devotion and fidelity in Japan.</figcaption>
                     </figure>
                     <figure class="place">
@@ -63,7 +71,16 @@
                     </figure>
                     <figure id="yt-video-wrapper" class="place">
                         <div id="iframe-wrapper">
-                            <img src="../img/fakeYT.jpg" width="100%" height="100%" type="image/webp" alt="Rooftop of Shibuya Sky" loading="lazy" onclick="loadYTVideo()">
+                            <img
+                                srcset="../img/fakeYT-200.jpg?as=webp 200w, ../img/fakeYT.jpg?as=webp 400w"
+                                sizes="(max-width: 1024px) 200px,
+                                        400px"
+                                src="../img/fakeYT.jpg?as=webp"
+                                type="image/webp"
+                                alt="YouTube video miniature"
+                                width="100%" height="100%"
+                                loading="lazy"
+                                onclick="loadYTVideo()"/>
                         </div>
                         <figcaption>
                             <h4>Shibuya Crossing</h4>
