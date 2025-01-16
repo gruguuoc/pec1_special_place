@@ -1,11 +1,11 @@
 /*Setting initial styles*/
 @font-face {
-    font-family: 'sans-serif';
+    font-family: 'Slick';
+    src: local('slick.woff') format('woff');
+    font-weight: normal;
     font-style: normal;
-    font-weight: 400;
-    src: local('slick'), format('woff');
     font-display: swap;
-  }
+}
   
 *,
 *::before,
